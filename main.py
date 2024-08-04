@@ -36,7 +36,7 @@ def recommend(movie):
     return recommend_movie, recommend_poster
 
 
-if st.button("Show Recommend"):
+if st.button("Show Recommendations"):
     movie_name, movie_poster = recommend(selectvalue)
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
